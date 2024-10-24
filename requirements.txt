@@ -5,3 +5,5 @@ faiss-cpu
 langchain-chroma
 langchain-community
 langchain-groq
+pypdf
+sentence-transformers
