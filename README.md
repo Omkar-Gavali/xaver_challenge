@@ -7,7 +7,7 @@ Before you start, you need to have Python installed.
 
 1. Create a virtual environment:
 
-bash
+```bash
 python -m venv env
 
 
