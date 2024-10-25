@@ -9,25 +9,28 @@ Before you start, you need to have Python installed.
 
 ```bash
 python -m venv env
-
+```
 
 2. Activate the virtual environment:
 
 On Windows, run:
 
-bash
+```bash
 .\env\Scripts\activate
+```
 
 On Unix or MacOS, run:
 
-bash
+```bash
 source env/bin/activate
+```
 
 
 3. Install the requirements:
 
-bash
+```bash
 pip install -r requirements.txt
+```
 
 
 The `requirements.txt`  contains the necessary libraries for this project.
