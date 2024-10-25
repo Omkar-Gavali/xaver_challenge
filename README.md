@@ -4,7 +4,7 @@ Developing a RAG chatbot using Langchain  as part of a coding challenge.
 
 ## Features
 
-### 1. **Linguistic-Based Splitting ing and Semantic search**
+### 1. **Linguistic-Based Splitting and Semantic search**
    - Splits document into smaller chunks using NLTKTextSplitter(Linguistic-Based) 
    - Uses vector embedding (all-mpnet-base-v2) and a vector database(Chroma) to store document embeddings, enabling semantic search.
 
@@ -70,6 +70,7 @@ You need to have a Groq API key to acess the llm.
 
 1. Sign up or log in to Groq.
 2. Go to your dashboard and generate a new API key.
+3. The below code snippet can be found in the notebook to set the API key
 
 ```bash
 os.environ["GROQ_API_KEY"] = getpass.getpass()
@@ -83,9 +84,9 @@ Replace `your_api_key` with the actual API key you got from Groq.
 
 ## Usage
 
-Open the main.ipynb and run all the cells one by one. A modular structure can be introduced to avoid this. 
-The main function to call is `chat_with_llm(prompt, chat_history=[], custom_template=PROMPT_TEMPLATE)`. 
-You can  use the interactive mode. Just call `start_interactive_chat()` and start chatting. Type 'exit' or 'quit' to end the session.
+1. Open the main.ipynb and run all the cells one by one. A modular structure can be introduced to avoid this. 
+2. The main function to call is `chat_with_llm(prompt, chat_history=[], custom_template=PROMPT_TEMPLATE)`. 
+3. You can  use the interactive mode. Just call `start_interactive_chat()` and start chatting. Type 'exit' or 'quit' to end the session.
 
 The ouput might look something like the below image.
 
