@@ -92,3 +92,5 @@ The ouput might look something like the below image.
 ![Ouput Image](output.png)
 
 
+### Research- references: https://python.langchain.com/docs/tutorials/rag/
+
