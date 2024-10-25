@@ -1,9 +1,12 @@
 langchain
-openai
+pymupdf
 sentence-transformers
-faiss-cpu
 langchain-chroma
 langchain-community
 langchain-groq
 pypdf
 sentence-transformers
+langchain-ollama
+langchain-huggingface
+langchain_experimental 
+nltk
