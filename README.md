@@ -11,7 +11,7 @@ Developing a RAG chatbot using Langchain  as part of a coding challenge.
 
 ### 2. **Generative Response with LLM**
    - Generates detailed responses by integrating the retrieved information and the original user query.
-   - Choice of LLM (mixtral-8x7b-32768), can use different models from Open AI as well
+   - Choice of LLM (mixtral-8x7b-32768), you can use different models from Open AI or some other inference method.
 
 ### 3. **Custom Template**
    - If the user asks a question outside the scope of available sources, the chatbot responds with "I don't know" and attempts to seek clarification by asking questions from relevant sources.
@@ -34,13 +34,13 @@ Developing a RAG chatbot using Langchain  as part of a coding challenge.
 
 Before you start, you need to have Python installed.  
 
-*** 1. Create a virtual environment: ***
+### *** 1. Create a virtual environment: ***
 
 ```bash
 python -m venv env
 ```
 
-*** 2. Activate the virtual environment: ***
+### *** 2. Activate the virtual environment: ***
 
 On Windows, run:
 
@@ -55,7 +55,7 @@ source env/bin/activate
 ```
 
 
-*** 3. Install the requirements: ***
+### *** 3. Install the requirements: ***
 
 ```bash
 pip install -r requirements.txt
@@ -83,11 +83,12 @@ Replace `your_api_key` with the actual API key you got from Groq.
 
 ## Usage
 
+Open the main.ipynb and run all the cells one by one. A modular structure can be introduced to avoid this. 
 The main function to call is `chat_with_llm(prompt, chat_history=[], custom_template=PROMPT_TEMPLATE)`. 
 You can  use the interactive mode. Just call `start_interactive_chat()` and start chatting. Type 'exit' or 'quit' to end the session.
 
 The ouput might look something like the below image.
 
-![Ouput Image](0utput.png)
+![Ouput Image](output.png)
 
 
